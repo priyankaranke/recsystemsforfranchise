@@ -2,7 +2,7 @@ library("recommenderlab")
 library(Matrix)
 
 #Setting row names to be cities and deleting columns
-df <- read.csv("Bajaj_df.csv")
+df <- read.csv("franchise_df.csv")
 df$State <- NULL
 df$Area <- NULL
 row.names(df) <- df$City
